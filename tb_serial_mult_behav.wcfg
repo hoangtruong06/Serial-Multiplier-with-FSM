@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_serial_mult_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_serial_mult" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,352.269 ns"></ZoomEndTime>
+      <Cursor1Time time="1,658.280 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tb_serial_mult/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/product" type="array">
+      <obj_property name="ElementShortName">product[15:0]</obj_property>
+      <obj_property name="ObjectShortName">product[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/pass_count" type="array">
+      <obj_property name="ElementShortName">pass_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/fail_count" type="array">
+      <obj_property name="ElementShortName">fail_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/total_cycles" type="array">
+      <obj_property name="ElementShortName">total_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_serial_mult/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group86" type="group">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_serial_mult/DUT/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/product" type="array">
+         <obj_property name="ElementShortName">product[15:0]</obj_property>
+         <obj_property name="ObjectShortName">product[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/state_reg" type="array">
+         <obj_property name="ElementShortName">state_reg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_reg[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/state_next" type="array">
+         <obj_property name="ElementShortName">state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/acc" type="array">
+         <obj_property name="ElementShortName">acc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">acc[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/a_reg" type="array">
+         <obj_property name="ElementShortName">a_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">a_reg[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/b_reg" type="array">
+         <obj_property name="ElementShortName">b_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">b_reg[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/count" type="array">
+         <obj_property name="ElementShortName">count[3:0]</obj_property>
+         <obj_property name="ObjectShortName">count[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/b_lsb" type="logic">
+         <obj_property name="ElementShortName">b_lsb</obj_property>
+         <obj_property name="ObjectShortName">b_lsb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/count_done" type="logic">
+         <obj_property name="ElementShortName">count_done</obj_property>
+         <obj_property name="ObjectShortName">count_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/WIDTH" type="array">
+         <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/IDLE" type="array">
+         <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/CALC" type="array">
+         <obj_property name="ElementShortName">CALC[1:0]</obj_property>
+         <obj_property name="ObjectShortName">CALC[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_serial_mult/DUT/DONE_ST" type="array">
+         <obj_property name="ElementShortName">DONE_ST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">DONE_ST[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
