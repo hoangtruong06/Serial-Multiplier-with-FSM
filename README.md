@@ -7,7 +7,12 @@ This repository features a digital design of an **8-bit Serial Multiplier** impl
 > **Target Board:** ZCU104 (Synthesis only)  
 
 ---
-
+# Objectives:
+- Understand the binary shift-and-add multiplication algorithm
+- Design a datapath with registers, an adder, and shift logic
+- Design an FSM that controls the datapath step by step
+- Combine FSM and datapath into a complete sequential circuit
+- Verify correctness using a self-checking testbench
 ## Part 1: The Shift-and-Add Algorithm 
 
 ### 1.1 — How Binary Multiplication Works
